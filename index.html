@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loozars Clothing - Fashion Redefined</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#" aria-label="Home">LOOZARS</a>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#home" aria-label="Home">Home</a></li>
+                <li><a href="#shop" aria-label="Shop">Shop</a></li>
+                <li><a href="#about" aria-label="About">About</a></li>
+                <li><a href="#policy" aria-label="Privacy Policy">Policy</a></li>
+                <li><a href="#contact" aria-label="Contact">Contact</a></li>
+            </ul>
+            <button id="mobile-toggle" aria-label="Toggle Navigation">&#9776;</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Loozars</h1>
+            <p>Your New Favorite Clothing Brand</p>
+            <a href="#shop" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="shop" class="shop-section">
+        <h1>Shop Our Latest Collection</h1>
+        <div class="product-cards">
+            <!-- Product Card 1 -->
+            <div class="product-card">
+                <a href="product1.html">
+                <img src="./images/product3.jpg" alt="Product 1">
+                <h3>Classic Hoodie</h3>
+                <p class="product-price">$39.99</p>
+                <a href="cart.html" class="cta-button">Add to Cart</a>
+            </a>
+            </div>
+            <!-- Product Card 2 -->
+            <div class="product-card">
+                <a href="product2.html">
+                <img src="./images/product4.jpg" alt="Product 2">
+                <h3>Graphic Tee</h3>
+                <p class="product-price">$24.99</p>
+                <a href="cart.html" class="cta-button">Add to Cart</a>
+            </a>
+            </div>
+            <!-- Product Card 3 -->
+            <div class="product-card">
+                <a href="product3.html">
+                <img src="./images/product3.jpg" alt="Product 3">
+                <h3>Jogger Pants</h3>
+                <p class="product-price">$29.99</p>
+                <a href="cart.html" class="cta-button">Add to Cart</a>
+            </a>
+            </div>
+            <!-- Product Card 4 -->
+            <div class="product-card">
+                <a href="product4.html">
+                <img src="./images/product4.jpg" alt="Product 4">
+                <h3>Denim Jacket</h3>
+                <p class="product-price">$49.99</p>
+                <a href="cart.html" class="cta-button">Add to Cart</a>
+            </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h1>About Loozars</h1>
+        <p>Fashion for all! Comfort, style, and quality in every piece.</p>
+        <div class="about-content">
+            <div class="about-photo">
+                <img src="./images/doom.jpg" alt="Founder Image">
+            </div>
+            <div class="about-bio">
+                <h2>Our Story</h2>
+                <p>
+                    Loozars is a brand that combines the best of fashion, comfort, and sustainability. Our vision is to offer high-quality clothing for everyone at an affordable price.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="policy" class="policy-section">
+        <h1>Privacy Policy</h1>
+        <p>Your privacy is important to us. This policy explains what information we collect and how we use it.</p>
+        <p>By using our site, you agree to the collection and use of information in accordance with this policy.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you!</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> contact@loozars.com</p>
+            <p><strong>Phone:</strong> +1234 567 890</p>
+            <p><strong>Address:</strong> 567 Fashion Street, New York, USA</p>
+        </div>
+        <form class="contact-form" action="http://localhost:3000/submit-form" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <p>&copy; 2024 Loozars Clothing. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
